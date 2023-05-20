@@ -1,0 +1,187 @@
+public class ProgressBarPanel extends JPanel {
+
+    private JProgressBar healthBar, hungerBar, energyBar;
+
+    private Timer hTimer, eTimer;
+
+    private JTextArea hunger, energy, health;
+
+    
+
+    public ProgressBarPanel() {
+
+        Color brown = new Color(205, 133, 63);
+
+        Font font = new Font("Arial", Font.BOLD, 15);
+
+        
+
+        setLayout(null);
+
+        
+
+        healthBar = new JProgressBar(0, 100);
+
+        healthBar.setValue(50);
+
+        healthBar.setUI(new RedProgressBarUI());
+
+        healthBar.setBounds(1200, 10, 100, 20);
+
+        
+
+        health = new JTextArea("Health: " + healthBar.getValue());
+
+        health.setBounds(1220, 35, 100, 20);
+
+        health.setBorder(null);
+
+        health.setFont(font);
+
+        health.setForeground(Color.RED);
+
+        health.setEditable(false);
+
+        health.setOpaque(false);
+
+        
+
+        add(health);
+
+        add(healthBar);
+
+        
+
+        hTimer = new Timer(5000, new ActionListener() {
+
+            @Override
+
+            public void actionPerformed(ActionEvent e){
+
+                int hvalue = hungerBar.getValue();
+
+                hvalue -= 1;
+
+                hungerBar.setValue(hvalue);
+
+                hunger.setText("Hunger: " + hungerBar.getValue());
+
+            }
+
+        });
+
+        hTimer.start();
+
+        
+
+        hungerBar = new JProgressBar(0, 100);
+
+        hungerBar.setValue(50);
+
+        hungerBar.setUI(new BrownProgressBarUI());
+
+        hungerBar.setBounds(1200, 60, 100, 20);
+
+        add(hungerBar);
+
+        
+
+        hunger = new JTextArea("Hunger: " + hungerBar.getValue());
+
+        hunger.setBounds(1220, 85, 100, 20);
+
+        hunger.setBorder(null);
+
+        hunger.setFont(font);
+
+        hunger.setForeground(brown);
+
+        hunger.setEditable(false);
+
+        hunger.setOpaque(false);
+
+        add(hunger);
+
+        
+
+        energyBar = new JProgressBar(0, 100);
+
+        energyBar.setValue(50);
+
+        energyBar.setUI(new YellowProgressBarUI());
+
+        energyBar.setBounds(1200, 110, 100, 20);
+
+        add(energyBar);
+
+        
+
+        energy = new JTextArea("Energy: " + energyBar.getValue());
+
+        energy.setBounds(1220, 135, 100, 20);
+
+        energy.setBorder(null);
+
+        energy.setEditable(false);
+
+        energy.setFont(font);
+
+        energy.setForeground(Color.YELLOW);
+
+        energy.setOpaque(false);
+
+        add(energy);
+
+        
+
+        eTimer = new Timer(5000, new ActionListener() {
+
+            @Override
+
+            public void actionPerformed(ActionEvent e){
+
+                if (isDark) {
+
+                    int evalue = energyBar.getValue();
+
+                    evalue += 5;
+
+                    energyBar.setValue(evalue);
+
+                    energy.setText("Energy: " + energyBar.getValue());
+
+                }
+
+            }
+
+        });
+
+        eTimer.start();
+
+    }
+
+    
+
+    public JProgressBar getHealthBar() {
+
+        return healthBar;
+
+    }
+
+    
+
+    public JProgressBar getHungerBar() {
+
+        return hungerBar;
+
+    }
+
+    
+
+    public JProgressBar getEnergyBar() {
+
+        return energyBar;
+
+    }
+
+}
