@@ -1,0 +1,60 @@
+earth-The third planet from the sun and the only known planet with living organisms.
+moon-The only natural satellite of Earth and the fifth largest moon in the solar system.
+mars-The fourth planet from the sun, also known as the Red Planet due to its reddish appearance.
+venus-The second planet from the sun, also known as the Morning Star or the Evening Star.
+jupiter-The fifth planet from the sun and the largest planet in the solar system.
+saturn-The sixth planet from the sun with its distinctive rings made of ice and rock particles.
+neptune-The eighth planet from the sun and the farthest known planet from Earth until 2006.
+uranus-The seventh planet from the sun with its unusual tilt that causes it to rotate on its side.
+pluto-A dwarf planet located in the Kuiper Belt, once considered the ninth planet until its reclassification in 2006.
+mercury-The closest planet to the sun and the smallest planet in the solar system.
+galaxy-A large group of stars, gas, and dust held together by gravity, such as the Milky Way.
+comet-A small icy body that releases gas and dust as it approaches the sun, forming a visible coma and tail.
+asteroid-A small rocky object in space, often found in the asteroid belt between Mars and Jupiter.
+star-A celestial object that emits energy in the form of light and heat, such as the Sun.
+telescope-An instrument used to observe and magnify distant objects in space.
+solarSystem-The collection of planets and other objects that orbit around the Sun.
+constellation-A group of stars forming a recognizable pattern in the sky, such as Orion or the Big Dipper.
+blackhole-A region of space with a gravitational pull so strong that nothing, not even light, can escape it.
+nebula-A cloud of gas and dust in space, often where new stars are forming.
+supernova-An explosive event that occurs when a star exhausts its fuel and undergoes a catastrophic collapse.
+astronomy-The scientific study of celestial objects and phenomena.
+andromeda-The closest galaxy to the Milky Way, located approximately 2.5 million light years away.
+aurora-A natural light display in the sky caused by charged particles from the sun colliding with Earth's atmosphere.
+celestial-Relating to the sky or outer space.
+cluster-A group of stars or galaxies located close to each other in space.
+cosmic-Relating to the universe or cosmos.
+crater-A bowl shaped depression on a planet or moon, often caused by impact from an asteroid or meteorite.
+eclipse-A phenomenon where one celestial body passes between another and the observer, such as a solar or lunar eclipse.
+exoplanet-A planet that orbits a star outside of our solar system.
+ganymede-The largest moon in the solar system, located orbiting Jupiter.
+gravity-The force of attraction between objects in space, such as planets and moons.
+hubble-The Hubble Space Telescope, a large telescope used to observe and image distant objects in space.
+internationalSpaceStation-A man made object in space used as a research laboratory and observatory.
+kuiperBelt-A region of the solar system beyond Neptune that contains many small icy objects, such as Pluto and Eris.
+meteorite-A rock fragment from outer space that has survived its passage through the Earth's atmosphere and hit the Earth's surface.
+orbit-The path that an object takes as it revolves around another object in space, such as a planet around a star.
+planetarium-A building or room equipped with a projector to display images of the stars and planets on a dome-shaped screen.
+rocket-A vehicle that moves in space by expelling gas out of its back, such as a spacecraft or missile.
+satellite-An object in space, either natural or man made, that orbits around a larger object, such as a planet or moon.
+universe-The totality of all matter, energy, and space, including galaxies and the contents of intergalactic space.
+cosmology-The study of the structure and evolution of the universe.
+darkMatter-Matter that does not emit, absorb, or reflect light, but can be detected through its gravitational effects.
+exoplanetaryScience-The study of planets outside our solar system.
+asteroidBelt-A region of the solar system between Mars and Jupiter that contains many small rocky objects.
+interstellar-Relating to the space between stars.
+lunarEclipse-An eclipse that occurs when Earth passes between the Sun and the Moon, casting a shadow on the Moon.
+meteorShower-A celestial event where a large number of meteors appear to originate from the same point in the sky.
+neutronStar-The collapsed core of a massive star that has gone supernova, composed almost entirely of neutrons.
+observatory-A building or facility equipped with telescopes and other instruments for observing celestial objects.
+pulsar-A highly magnetized, rotating neutron star that emits beams of electromagnetic radiation.
+quasar-A luminous active galactic nucleus powered by accretion onto a supermassive black hole.
+redGiant-A star in the late stages of its life that has exhausted the hydrogen fuel in its core and expanded in size.
+solarFlare-A sudden, intense burst of energy from the Sun's surface that can cause disruption on Earth.
+telescopeArray-A collection of telescopes that work together to provide higher resolution and sensitivity than a single telescope.
+ultraviolet-Relating to electromagnetic radiation with a wavelength shorter than that of visible light but longer than X-rays.
+variableStar-A star that changes in brightness over time due to internal processes or external influences.
+whiteDwarf-A small, extremely dense star that has exhausted most of its nuclear fuel and is no longer undergoing fusion reactions.
+xray-A form of high energy electromagnetic radiation with a wavelength shorter than that of ultraviolet radiation.
+yellowDwarf-A main sequence star, similar to the Sun, that emits a yellowish white light.
+zenith-The point in the sky directly overhead an observer.
